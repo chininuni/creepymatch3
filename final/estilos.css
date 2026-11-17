@@ -1,0 +1,97 @@
+:root{--color-fondo: #000000; a {color:#610101;} a:visited {color: #660C00;} a {text-decoration: none;}}
+@font-face {font-family: "Insomnia"; src: url("Insomnia.ttf") format("truetype");}
+@font-face {font-family: "HelpMe"; src: url("HelpMe.ttf") format("truetype");}
+@font-face {font-family: "MetalMania"; src: url("MetalMania.ttf") format("truetype");}
+@font-face {font-family: "SpecialElite"; src: url("SpecialElite-Regular.ttf") format("truetype");}
+* {cursor: url('https://cdn.cursors-4u.net/css-previews/bloody-stabbing-knife-d5b0c099-css.webp') 13 13, auto !important;}
+body {background-color: #000000; margin: 0 auto; padding: 32px 24px; text-align: center;}
+main {max-width: 800px; margin: 0 auto; padding: 32px 24px; text-align: center;}
+header {max-width: 800px; margin: 0 auto; padding: 32px 24px; text-align: center;}
+footer {background-color: #070000; text-align: center; padding: 20px; font-size: 0.875rem; p{color: #ffffff;  text-shadow: 0 0 6px #420200;}}
+
+p {color:#FFFFFF; }
+h1 {color:#FFFFFF; }
+h2 {color:#610101; }
+h3 {color:#FFFFFF; }
+h4 {color:#FFFFFF; }
+h5 {color:#FFFFFF; }
+h6 {color:#330600;}
+label {color:#FFFFFF; }
+button {color:#330600; }
+li {color:#FFFFFF; text-align: start; }
+.helpme{font-family: 'HelpMe';}
+.insomnia{font-family: 'Insomnia';}
+.metal{font-family: 'MetalMania';}
+.special{font-family:'SpecialElite';}
+a {margin: 0 12px; font-weight: bold; padding: 4px 8px; border-radius: 50px;font-family: 'Insomnia';}
+a:hover{color: #f5ccc9; background-color: #250602; transform: scale(1.08);}
+a:active {transform: scale(0.94); background: #f5ccc9;}
+.kipi {color:#660C00}
+
+p::selection {background: #961a2e; color: #360415;}
+h1::selection {background: #961a2e; color: #470018;}
+h2::selection {background: #961a2e; color: #470018;}
+h3::selection {background: #961a2e; color: #470018;}
+h4::selection {background: #961a2e; color: #360415;}
+h5::selection {background: #961a2e; color: #360415;}
+h6::selection {background: #961a2e; color: #360415;}
+img::selection {background: #961a2e; color: #360415;}
+section::selection {background: #961a2e; color: #470018;}
+a::selection {background: #961a2e; color: #470018;}
+button::selection {background: #961a2e; color: #360415;}
+#yo{
+    border-radius: 50%;
+    object-fit: cover;}
+.muxaxo {border-radius: 2.5%;}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0%;}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;}
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    min-height: 525px;
+    padding: 25px;
+    box-sizing: border-box;
+    flex: 0 0 350px;}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;}
+.botones {display: flex;justify-content: center;align-items: center;gap: 25px;margin-top: 20px;}
+.botones button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;}
+.pass {background-color: #808080; color: #333333; border: 2px solid #808080;}
+.pass:hover {background-color: #c2bfc0; border-color: #c2bfc0; transform: scale(1.1); box-shadow: 0 0 15px #c2bfc0;}
+.smash { background-color: #961a2e; color: #580412; border: 2px solid #961a2e;}
+.smash:hover { background-color: #d93650; border-color: #d93650; transform: scale(1.1); box-shadow: 0 0 15px #d93650;}
